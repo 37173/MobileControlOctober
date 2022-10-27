@@ -24,7 +24,7 @@ public class ActivityTwo2 extends AppCompatActivity {
         listView=(ListView) findViewById(R.id.ListView);
 
         final String[] resNames = new String[]{
-                "page1.png", "page2.png","page3.png","page4.png","page5.png", "page6.png"
+                "Мост ведущий в замок", "Под водой","Мы туристы","Лесная осень","В Венеции", "В деревне"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<> (this,
                 android.R.layout.simple_list_item_1,resNames);
@@ -40,22 +40,22 @@ public class ActivityTwo2 extends AppCompatActivity {
                 String strText = textView.getText().toString();
                 ImageView imageView = (ImageView) findViewById(R.id.imageView);
                 switch (strText) {
-                    case "page1.png":
+                    case "Мост ведущий в замок":
                         imageView.setImageResource(R.drawable.page1);
                         break;
-                    case "page2.png":
+                    case "Под водой":
                         imageView.setImageResource(R.drawable.page2);
                         break;
-                    case "page3.png":
+                    case "Мы туристы":
                         imageView.setImageResource(R.drawable.page3);
                         break;
-                    case "page4.png":
+                    case "Лесная осень":
                         imageView.setImageResource(R.drawable.page4);
                         break;
-                    case "page5.png":
+                    case "В Венеции":
                         imageView.setImageResource(R.drawable.page5);
                         break;
-                    case "page6.png":
+                    case "В деревне":
                         imageView.setImageResource(R.drawable.page6);
                         break;
                 }
