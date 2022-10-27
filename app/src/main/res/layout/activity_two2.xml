@@ -15,13 +15,16 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Это вторая страница" />
+            android:text="Это вторая страница"
+            android:gravity="center"/>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Выбирите ресурс для просмотра" />
+            android:gravity="center"
+            android:text="Выберите ресурс для просмотра"
+            android:textColor="#FF0000" />
     </LinearLayout>
 
     <ScrollView
